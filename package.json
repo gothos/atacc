@@ -1,0 +1,25 @@
+{
+  "name": "attacama",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.3.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "uuid": "latest",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "npm run lint && react-scripts start",
+    "lint": "prettier --no-semi --single-quote --no-bracket-spacing --trailing-comma es5 'src/**/*.{js,css}' --write",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "prettier": "^1.11.1"
+  }
+}

@@ -1,0 +1,6 @@
+@import '../../../node_modules/antd/dist/antd.css';
+
+
+.hide-expand-icon .ant-table-row-expand-icon {
+  display: none;
+}
